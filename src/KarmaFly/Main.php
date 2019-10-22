@@ -2,7 +2,6 @@
 
  namespace KarmaFly\Main;
 
- 
 
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
