@@ -37,25 +37,18 @@ use pocketmine\utils\Config;
    
 
     if ($cmd->getName() == "fly") {
-
       $sender->sendMessage("§4Du kannst nicht mehr Fliegen!!")
-
       $sender->setAllowFlight(false);
-
     } else {
-
       $sender->sendMessage(self::PREFIX . "§aDu kannst nun Fliegen!")
-
       $sender->setAllowFlight(true);
 
     }
 
                   
-
-  
+ 
 
     //Ab hier keine commands!!!
-
     return false;
 
  }
