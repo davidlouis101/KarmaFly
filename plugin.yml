@@ -1,0 +1,13 @@
+name: KarmaFly
+main: KarmaFly\Crow\Main
+version: 1.0.0
+api: [3.0.0,4.0.0]
+load: POSTWORLD
+author: Crow
+description: "KarmaFly"
+
+commands:
+  fly:
+    description: §4KarmaFly
+    usage: "/fly"
+    permission: fly.command
