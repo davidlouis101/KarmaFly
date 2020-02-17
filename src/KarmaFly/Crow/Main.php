@@ -2,7 +2,6 @@
 
  namespace Crow\KarmaFly;
 
-
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
@@ -26,15 +25,9 @@ use pocketmine\utils\Config;
     $this->getServer()->getLogger()->warning(TextFormat::BLUE . "Deaktiviert " . TextFormat::GREEN . "Aktiviert.");
   }
 
-
   public function onDisable() {
     $this->getServer()->getLogger()->info(TextFormat::BLUE . "Deaktiviert " . TextFormat::RED . "Deaktiviert.")
   }
-
-   
-
-   
-
     if ($cmd->getName() == "fly") {
       $sender->sendMessage("§4Du kannst nicht mehr Fliegen!!")
       $sender->setAllowFlight(false);
